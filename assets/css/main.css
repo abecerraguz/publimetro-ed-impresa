@@ -1,0 +1,133 @@
+.mar-t-2{
+	margin-top:0.5rem;
+}
+
+.bloque__principal{
+	width:100vw;
+	max-width:90vw;
+	height:auto;
+	display:block;
+	position: relative;
+	overflow: hidden;
+	float: none;
+	margin: 0 auto;
+	background: #087436;
+	border-radius: 5px;
+}
+
+.bloque__principal img{
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.bloque__imagen-diario{
+	width: 50%;
+    height: auto;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    right: -30px;
+    top: 3rem;
+    z-index: 1;
+    /* background: purple; */
+    transform: rotate(-20deg);
+    box-sizing: border-box;
+    padding: 1.3rem;
+}
+
+.bloque__imagen-diario a img{
+	width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 1px -1px 18px rgba(0,0,0,0.5);
+}
+
+.bloque__header{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding:0;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+
+.bloque__header img{
+	width: 35%;
+	height: auto;
+    max-width: 100%;
+    margin: 0.8rem 0 0 1.8rem;
+}
+
+
+@media only screen and (min-width: 500px){
+
+.mar-t-2{
+	margin-top: 2rem!important;
+}
+
+.bloque__principal{
+	width:100vw;
+	max-width: 600px;
+	height:auto;
+	display:block;
+	position: relative;
+	overflow: hidden;
+	float: none;
+	margin: 0 auto;
+	padding: 0;
+	background: #087436;
+}
+
+.bloque__principal img{
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.bloque__imagen-diario{
+	width: 50%;
+    height: auto;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    right: -30px;
+    top: 3rem;
+    z-index: 1;
+    /* background: purple; */
+    transform: rotate(-20deg);
+    box-sizing: border-box;
+    padding: 1.3rem;
+}
+
+.bloque__imagen-diario a img{
+	width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 1px -1px 18px rgba(0,0,0,0.5);
+}
+
+.bloque__header{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 1rem 0 0 0;
+}
+
+.bloque__header img{
+	width: 35%;
+	height: auto;
+    max-width: 100%;
+    margin: 0 0 0 1.8rem;
+}
+
+}
